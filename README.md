@@ -5,7 +5,7 @@ This is unofficial Homebrew Formula, I almost create it for myself, but you can 
 # Install
 
 ```
-brew tag s10018/tl
+brew tap s10018/tl
 brew install [library you like!]
 ```
 
