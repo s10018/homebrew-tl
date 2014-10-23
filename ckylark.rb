@@ -18,7 +18,6 @@ class Ckylark < Formula
 
     ohai "Model is installed to #{share}/model"
     ohai "Please type below command to parse:"
-    ohai "gzip -d #{share}/model/*.gz (only once)"
     ohai "ckylark --model #{share}/model/[wsj|jdc] < input"
 
   end
