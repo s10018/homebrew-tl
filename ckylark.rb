@@ -2,7 +2,7 @@ require "formula"
 
 class Ckylark < Formula
 
-  homepage "https://github.com/odashi/Ckylark"
+  homepage "http://odaemon.com/?page=tools_ckylark"
   url "https://github.com/odashi/Ckylark.git", :using => :git, :branch => 'master'
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build

@@ -20,8 +20,9 @@ You can install following commands or libraries using [Homebrew](http://brew.sh/
 ## Ckylark (ckylark)
 
 - Ckylark generates the phrase structure of given input sentence using latent annotated probabilistic context-free grammar (LAPCFG) model.
-  - detail: https://github.com/odashi/Ckylark
-- You need `kytea`(if possible) if you parse Japanese text.
+  - detail: http://odaemon.com/?page=tools_ckylark
+- You need `kytea` (if possible) if you want t parse Japanese text.
+- You need some tokenizer if you want t parse Japanese text.
 - You can select model if you input below command.
   - wsj: English
   - jdc: Japanese
