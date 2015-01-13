@@ -2,6 +2,8 @@
 
 This is unofficial Homebrew Formula, I almost create it for myself, but you can use freely :)
 
+This software is released under the MIT License, see LICENSE.txt.
+
 # Install
 
 ```
@@ -50,4 +52,3 @@ ckylark --model `brew --prefix ckylark`/share/model/[wsj|jdc] < text
 - You need `pficommon`, please tap [this](https://github.com/gwtnb/homebrew-pficommon ) or [this](https://github.com/oame/homebrew-nlp )..etc.
 - You need `ux`.
   - brew will install `pficommon` and `ux` if not installed.
-
