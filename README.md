@@ -30,7 +30,7 @@ You can install following commands or libraries using [Homebrew](http://brew.sh/
   - jdc: Japanese
 
 ```
-ckylark --model `brew --prefix ckylark`/share/model/[wsj|jdc] < text
+ckylark --model `brew --prefix ckylark`/share/ckylark/[wsj|jdc] < text
 ```
 
 ## J.DepP (jdepp)

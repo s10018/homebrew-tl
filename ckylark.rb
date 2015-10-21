@@ -14,11 +14,10 @@ class Ckylark < Formula
     system "./configure", "--disable-debug",
                           "--prefix=#{prefix}"
     system "make", "install"
-    (share/"model").install Dir["model/*"]
 
-    ohai "Model is installed to #{share}/model"
+    ohai "Model is installed to #{share}/ckylark"
     ohai "Please type below command to parse:"
-    ohai "ckylark --model #{share}/model/[wsj|jdc] < input"
+    ohai "ckylark --model `brew --prefix ckylark`/share/ckylark/[wsj|jdc] < input"
 
   end
 
