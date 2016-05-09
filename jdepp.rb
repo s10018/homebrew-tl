@@ -3,14 +3,14 @@ require "formula"
 class Jdepp < Formula
   homepage "http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/"
   url "http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/jdepp-2014-06-22.tar.gz"
-  sha1 "ecd3165dca74f5da27ea457dd26030183748278d"
+  sha256 "6bcbce828217087764180fb0b8dfb13b8784588d605a1b08b98c99e251b76bfc"
 
   depends_on 'mecab'
   option 'enable-standalone'
 
   def install
     args = %W[
-	"--prefix=#{prefix}"
+	--prefix=#{prefix}
     ]
     system "./configure", *args
     system "make"
