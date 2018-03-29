@@ -4,7 +4,7 @@ This is unofficial Homebrew Formula, I almost create it for myself, but you can 
 
 This software is released under the MIT License, see LICENSE.txt.
 
-# Install
+# How to install
 
 ```
 brew tap s10018/tl
